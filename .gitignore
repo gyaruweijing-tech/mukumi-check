@@ -1,0 +1,22 @@
+# 顔画像を絶対にコミットしないためのガード
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.bmp
+*.heic
+*.mp4
+*.webm
+/photos/
+/captures/
+
+# 環境変数
+.env
+.env.*
+
+# 依存・ビルド成果物
+node_modules/
+.next/
+dist/
+build/
